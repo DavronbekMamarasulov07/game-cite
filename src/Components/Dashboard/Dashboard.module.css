@@ -1,0 +1,108 @@
+
+
+.dashboard{
+    width: 100%;
+    max-width: 400px;
+    padding: 100px 12px 75px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.d_title{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: left;
+    color: #22283C;
+    padding-block: 30px 15px;
+}
+
+.d_card_wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+   
+}
+
+.d_card{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.d_live_card{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+
+.d_live_card_title{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    color: #22283C;
+}
+
+.d_live_card_info{
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 10px;
+    text-align: left;
+    color: #9DA1B4;
+    margin-block: 10px;
+}
+
+.d_live_card_des{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #9DA1B4;
+    margin-block: 12px 33px;
+}
+
+.d_card_btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FC8B40;
+    box-shadow: 0px 0px 5px #FC8B40;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 15px;
+    text-align: left;
+    color: #Ffff;
+    border: none;
+    padding: 15px 0;
+    transition: .3s;
+}
+
+.d_card_btn:active{
+    transform: scale(0.9);
+    background-color: #c45e1bf0;
+
+}
+
+.user_profile{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.user_info{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
